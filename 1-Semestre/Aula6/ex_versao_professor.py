@@ -9,8 +9,7 @@ while True:
     opcao = input("O que você deseja fazer? 1 ou 0? ")
     if opcao == str(0):
         break
-    else:
-        nome = input("Digite um nome para ser cadastrado: ")
-        nomes.append(nome)    
+    nome = input("Digite um nome para ser cadastrado: ")
+    nomes.append(nome)    
 
 print(nomes)
