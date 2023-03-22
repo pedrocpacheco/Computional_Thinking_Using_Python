@@ -7,7 +7,7 @@ print(ponto_flutuante)
 # list = ["item 1", "index 1", 3, 3 [4.1, 4.2], 5]
 # print(list)
 
-lista = ["meu nome", 12, [1, 2, 3, 4]]
+lista = ["meu nome", 12, [1, 2, 3, 4]] # Listas
 print(lista)
 
 for item in lista[0]:
