@@ -16,6 +16,9 @@ print(items)
 items.pop()
 print(items)
 
+items.remove("Daniel")
+print(items)
+
 # Listas dentro de listas                 
 series = ["Breaking Bad", "Prison Break", ["The Walking Dead", "Fear The Walking Dead", "The Walking Dead Summit"]]
 print(series[2][0]) # o item 3 de series é uma lista de TWD, o item 1 de TWD é The Walking Dead
