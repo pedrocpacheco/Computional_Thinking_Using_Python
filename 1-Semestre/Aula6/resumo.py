@@ -9,8 +9,10 @@ booleano = True
 # list = ["item 1", "index 1", 3, 3 [4.1, 4.2], 5]
 # print(list)
 
+list = [1, 2, 3]
+
 # FOR
-for item in lista[0]:
+for item in list[0]:
     print("Item -> " + str(item))
 
 # IF
