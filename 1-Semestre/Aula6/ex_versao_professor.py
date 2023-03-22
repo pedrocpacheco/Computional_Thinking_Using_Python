@@ -11,7 +11,6 @@ while True:
         break
     else:
         nome = input("Digite um nome para ser cadastrado: ")
-        nomes.append(nome)
-            
+        nomes.append(nome)    
 
 print(nomes)
