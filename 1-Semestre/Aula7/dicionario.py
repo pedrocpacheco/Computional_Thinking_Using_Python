@@ -11,10 +11,13 @@ dicionario = {
 }
 
 # Printando chave first_name
-print(dicionario['first_name'])
+nome = dicionario['first_name']
+print(nome)
 
 # Printando chave last_name
-print(dicionario['last_name'])
+dicionario['last_name']
+print(sobrenome)
 
 # Printando chave first_name
-print(dicionario['age'])
+idade = dicionario['age']
+print(idade)
