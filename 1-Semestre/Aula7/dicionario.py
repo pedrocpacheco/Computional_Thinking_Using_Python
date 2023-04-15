@@ -37,7 +37,7 @@ example_dictionary.update({
   'age': 17,
   'new_version': True
 })
-print(dicionario)
+print(example_dictionary)
 
   # Podemos criar outra variavel e atribuir ao dicionario
 new_dictionary = {
@@ -54,9 +54,9 @@ for key in example_dictionary:
   print("Chave:", key)
 
 def create_user():
-  first_name = input("Qual seu primeiro nome?")
-  last_name = input("Qual seu last_name?")
-  age = input("Qual sua idade?")
+  first_name = input("Whats your first name?\n")
+  last_name = input("Whats your last name?\n")
+  age = input("How Old are You?\n")
   
   user_info = {
     'first_name': first_name,
@@ -64,14 +64,19 @@ def create_user():
     'first_name': age,
   }
 
-usuario = []
+  return user_info
+
+user_list = []
 while True:
-  print("Selecione a Opção Desejada")
-  print("1- Cadastrar Usuario")
-  print("2- Localizar usuario pelo primeiro nome")
-  print("0- Sair")
+  print("Welcome to the Program! What do you want to do?")
+  print("1- Create User")
+  print("2- Locate a User by it's name")
+  print("0- Exit")
   option = int(input(""))
   if option == 0:
     break
   elif option == 1:
-    return;
+    user_list.append(create_user())
+    continue
+
+print(user_list)
