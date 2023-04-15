@@ -1,64 +1,64 @@
 #Fazendo lista
-lista = []
-lista.append("item 1")
-lista.append("lista 2")
+example_list = []
+example_list.append("item 1")
+example_list.append("lista 2")
 
 #Fazendo dicionario
-dicionario = {
+example_dictionary = {
   'first_name': 'Pedro',
   'last_name': 'Pacheco',
   'age': 17
 }
 
 # Printando chave first_name
-nome = dicionario['first_name']
-print(nome)
+name = example_dictionary['first_name']
+print(name)
 
 # Printando chave last_name
-sobrenome = dicionario['last_name']
-print(sobrenome)
+last_name = example_dictionary['last_name']
+print(last_name)
 
 # Printando chave first_name
-idade = dicionario['age']
-print(idade)
+age = example_dictionary['age']
+print(age)
 
-print(dicionario)
+print(example_dictionary)
 
 # Deletando Chave
-del dicionario ['age']
-print(dicionario)
+del example_dictionary ['age']
+print(example_dictionary)
 
 # Atualizando dicionario
 
   # Podemos atualizar direto
-dicionario.update({
+example_dictionary.update({
   'first_name': 'Pedro',
   'last_name': 'Pacheco',
   'age': 17,
-  'atualizado': True
+  'new_version': True
 })
 print(dicionario)
 
   # Podemos criar outra variavel e atribuir ao dicionario
-dicionario_atualizado = {
+new_dictionary = {
   'first_name': 'Pedro',
   'last_name': 'Pacheco',
   'age': 17,
   'atualizado': True
 }
-dicionario.update(dicionario_atualizado)
-print(dicionario)
+example_dictionary.update(new_dictionary)
+print(example_dictionary)
 
 # Loopando por dicionario
-for key in dicionario:
+for key in example_dictionary:
   print("Chave:", key)
 
-def criar_usuario():
+def create_user():
   first_name = input("Qual seu primeiro nome?")
-  last_name = input("Qual seu sobrenome?")
+  last_name = input("Qual seu last_name?")
   age = input("Qual sua idade?")
   
-  info_usuario = {
+  user_info = {
     'first_name': first_name,
     'last_name': last_name,
     'first_name': age,
@@ -74,4 +74,4 @@ while True:
   if option == 0:
     break
   elif option == 1:
-    u
+    return;
