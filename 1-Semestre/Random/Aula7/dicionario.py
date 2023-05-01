@@ -15,7 +15,7 @@ name = example_dictionary['first_name']
 print(name)
 
 # Printando chave last_name
-last_name = example_dictionary['last_name']
+last_name = example_dictionary
 print(last_name)
 
 # Printando chave first_name
