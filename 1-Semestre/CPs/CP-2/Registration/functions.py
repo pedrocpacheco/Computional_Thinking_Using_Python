@@ -14,6 +14,8 @@ def run_registration():
         store = define_store(id, name) 
         store_list.append(store)
     elif(option_menu == 2):
+      print("(Stores)")
+      print("-" * 15)
       for store in store_list:
         print_store_infos(store)
 

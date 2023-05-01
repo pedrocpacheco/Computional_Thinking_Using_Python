@@ -26,11 +26,13 @@ def define_store(id, name):
   return store
 
 def print_store_infos(store):
-  print("<Store Info>\n")
-  print("-" * 15)
-  print(f"Store ID: ", store["id"], "\n")
-  print(f"Store Name: ", store["name"], "\n")
+  print("<Store Info>")
+  print(f"Store ID: ", store["id"])
+  print(f"Store Name: ", store["name"])
   print("Store's Products:")
+  print("=" * 15)
   for product in store["product_list"]:
+    print("(Product)")
     print_product(product)
-  print("*" * 15)
+    print("=" * 15)
+  print("-" * 15)

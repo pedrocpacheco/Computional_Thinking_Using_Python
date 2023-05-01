@@ -8,7 +8,7 @@ def define_product(id, name, description, value):
   return product
 
 def print_product(product):
-  print(product["id"], "\n")
-  print(product["name"], "\n")
-  print(product["description"], "\n")
-  print(product["value"], "\n")
+  print(f"Product ID: ", product["id"])
+  print(f"Product Name: ", product["name"])
+  print(f"Product Description: ", product["description"])
+  print(f"Product Value: ", product["value"])
