@@ -52,6 +52,3 @@ def run_program():
       break   
 
 run_program()
-      
-    
-   
