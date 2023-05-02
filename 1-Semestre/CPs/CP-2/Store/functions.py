@@ -8,7 +8,7 @@ def define_store(id, name):
 
   product_list = []
   while(True):
-    option = input("What you want to do? \n1- Define Products | 2- Finish Product List \n")
+    option = input("What you want to do? \n1- Define New Product | 2- Finish Current Store Product List \n")
     
     if(int(option) != 1):
       break
