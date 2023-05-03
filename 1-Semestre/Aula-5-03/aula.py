@@ -9,7 +9,7 @@ def print_name_info(name_json):
     name = name_json[0]
     print("\n<NAME INFO>\n")
     print("(NORMAL INFOS)")
-    print(f"Name: ", name["nome"])
+    print(f"Name: ", name["nome"].capitalize())
     print(f"Sex: ", name["sexo"])
     print(f"Location: ", name["localidade"])
     print()
