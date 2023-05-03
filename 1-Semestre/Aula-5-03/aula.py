@@ -15,7 +15,7 @@ def print_name_info(name_json):
     print()
     for res in name["res"]:
         print("(RESIDENCIA) ")
-        print(f"Periodo Res: ", res["periodo"])
+        print(f"Periodo Res: ", res["periodo"].strip("[").replace(",", " até "))
         print(f"Frequência Res: ", res["frequencia"])
         print()
     
