@@ -8,6 +8,7 @@ def run_registration():
     if(option_menu == 1):
       while(True):
         option_stores = int(input("What do you want to do? \n1- Define New Store | 2- Get back to menu \n"))
+        
         if(option_stores == 2):
           break
         
