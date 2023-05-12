@@ -1,5 +1,6 @@
 # For com Listas
 games = ["Red Dead Redemption 2", "Cyberpunk 2077", "Tales From Borderlands"]
+names = ["Pedro", "Daniel", "Kauã"]
 
 for game in games:
   print ("Game " + game)
