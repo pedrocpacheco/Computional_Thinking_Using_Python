@@ -12,3 +12,15 @@ def get_file_content(file_path):
             return content
     except FileNotFoundError:
         print("Arquivo não encontrado")
+        
+def get_headers(content): 
+    headers = content.split(",")
+    return headers
+
+def columns_to_dict(headers, content):
+    data = {}
+    for index, column in enumerate(content):
+        header_name = headers[index]
+        header_name = header_name.strip('"')
+        data[header_name] = column
+    return data
